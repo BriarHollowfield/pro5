@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Використання Cookies</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg-top: #0f172a;
+      --bg-bottom: #1e293b;
+      --text: #cbd5e1;
+      --heading: #f1f5f9;
+      --link: #38bdf8;
+      --border: #334155;
+      --th-bg: #1e293b;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-top: #f8fafc;
+        --bg-bottom: #eef2f7;
+        --text: #334155;
+        --heading: #0f172a;
+        --link: #0284c7;
+        --border: #cbd5e1;
+        --th-bg: #e2e8f0;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      min-height: 100dvh;
+      line-height: 1.7;
+    }
+    .page { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
+    h1 { color: var(--heading); font-size: 30px; margin-bottom: 24px; }
+    h2 { color: var(--heading); font-size: 20px; margin: 28px 0 10px; }
+    p, td { font-size: 15px; margin-bottom: 12px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0 24px; }
+    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; font-size: 14px; }
+    th { color: var(--heading); background: var(--th-bg); }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { display: inline-block; margin-top: 32px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Використання Cookies</h1>
+
+    <p>Cookies — це невеликі текстові файли, які зберігаються у вашому браузері при відвідуванні сайту. Ми використовуємо їх мінімально, лише для коректної роботи сайту та знеособленої статистики.</p>
+
+    <h2>Які cookies ми використовуємо</h2>
+    <table>
+      <tr><th>Тип</th><th>Призначення</th></tr>
+      <tr><td>Технічно необхідні</td><td>Забезпечують базову роботу сайту. Вимкнути їх неможливо без втрати працездатності сторінки.</td></tr>
+      <tr><td>Аналітичні</td><td>Знеособлена статистика відвідувань: кількість переходів, тип пристрою. Використовуються для розуміння ефективності сторінки.</td></tr>
+      <tr><td>Facebook Pixel (Meta)</td><td>Рекламно-аналітичні cookies від Meta: вимірювання ефективності рекламних кампаній, знеособлена статистика дій на сайті, ремаркетинг.</td></tr>
+    </table>
+
+    <h2>Як керувати cookies</h2>
+    <p>Ви можете заблокувати або видалити cookies у налаштуваннях свого браузера (розділ «Конфіденційність» / «Privacy»). Це не вплине на головну функцію сайту — перехід за кнопкою в Telegram.</p>
+
+    <h2>Facebook Pixel (Meta)</h2>
+    <p>Для вимірювання ефективності реклами сайт використовує Facebook Pixel — код від компанії Meta. Він встановлює рекламно-аналітичні cookies та фіксує знеособлені дані про дії на сайті: перегляд сторінок, натискання кнопок, тип пристрою.</p>
+    <p>Обробка цих даних відбувається відповідно до <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">Політики конфіденційності Meta</a>. Відмовитися від відстеження можна в налаштуваннях браузера або облікового запису Facebook.</p>
+
+    <h2>Сторонні cookies</h2>
+    <p>Сторонні сервіси (зокрема Facebook Pixel від Meta та Telegram) можуть встановлювати власні cookies та збирати дані відповідно до власних політик конфіденційності. Ми не маємо доступу до цих файлів і не керуємо ними.</p>
+
+    <a class="back" href="index.html">← На головну</a>
+  </div>
+</body>
+</html>
